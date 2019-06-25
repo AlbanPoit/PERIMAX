@@ -1,0 +1,33 @@
+form{
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-c
+}
+
+h3{
+	text-align: center;
+}
+
+
+input{
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
+
+#legende{
+	font-size: 0.8em;
+	color: red;
+}
+
+.criteres:invalid {
+  border: 1px dashed red;
+}
+
+.criteres: valid{
+	border: 1px solid black
+}

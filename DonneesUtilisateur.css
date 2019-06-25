@@ -1,0 +1,88 @@
+/* Mise en page de l'affichage des données de l'utilisateur*/
+
+#titre{
+	text-align: center;
+}
+
+#ChampDonnees{
+	margin-left: 100px;
+	font-size: 18px;
+}
+/* Cela va affecter tous les span contenu dans #ChampDonnees */
+#ChampDonnees span{ 
+	font-weight: bold;
+}
+
+#ChampDonnees p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Mise en page des deux boutons de modifications*/
+
+	#btnModif, #btnpasse{
+
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 15px;
+		width: 300px;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 5px;
+		border: 2px black solid;
+
+	}
+
+	input[name="Modification"], input[name="Passe"]{
+		margin-top: 15px;
+	}
+
+
+/* Mise en forme du form de données et de passe*/
+	
+	#modifDonnees, #modifPasse{
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 15px;
+		width: 300px;
+		margin-right: auto;
+		margin-left: auto;
+		padding: 5px;
+		border: 2px black solid;
+	}
+
+	#modifDonnees input, #modifPasse input{
+		margin-bottom: 5px;
+		margin-top: 5px;
+	}
+
+/*Mise en forme du bouton quitter*/
+
+	#quitter{
+		margin-top: 300px;
+		text-align: center;
+	}
+
+
+
+
+
+
+
+
+
+#legende{
+	font-size: 0.8em;
+	color: red;
+}
+
+/*Critères du form*/
+
+.criteres:invalid {
+  border: 1px dashed red;
+}
+
+.criteres: valid{
+	border: 1px solid black
+}
+

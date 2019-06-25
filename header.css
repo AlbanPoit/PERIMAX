@@ -1,0 +1,29 @@
+.header{
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  height:50px;
+  border-bottom: solid;
+  border-bottom-width: thin;
+}
+
+.titre{
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 5px;
+  float: left;
+}
+
+.liens{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 250px;
+
+}
+
+.user{
+  font-size: 20px;
+  padding-right: 10px;
+  padding-top: 0px;
+  float: right;
+}
